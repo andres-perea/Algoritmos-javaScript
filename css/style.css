@@ -1,0 +1,55 @@
+/* === Agregar tipografia === */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background: url(../img/software.jpg);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 90%;
+    max-width: 1350px;
+    margin: 4% auto;
+    border: 1px solid #fff; 
+    background: #0000005f;
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+button {
+    background: transparent;
+    border: 2px solid white;
+    padding: 12px 30px;
+    margin: 10px;
+    color: #fff;
+    transition: .5s;
+}
+
+button:hover {
+    background: rgba(255, 0, 0, 0.711);
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    transform: scale(1.1);
+}
